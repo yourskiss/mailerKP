@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>navigation</title>
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box;}
+div {  width: 100%; float: left; padding: 2rem;   }
+ul { width: 100%; display: flex;  justify-content: space-around; flex-wrap: wrap; }
+li { list-style: none; margin:0; padding:0; width: 30%; }
+a { display: block; margin:0.3rem 0; padding:10px 20px; border:solid 1px #14A0D2; background: #fff; text-align: center; text-decoration: none; color: #14A0D2; font-size: 18px; font-weight: 500; font-family: Arial, Helvetica, sans-serif; }
+a:hover { background: #14A0D2;  color:#fff;  }
+
+@media only screen and (max-width:1023px) 
+{
+    ul li { width: 46%; }
+}
+@media only screen and (max-width:499px) 
+{
+    ul { justify-content:center;  }
+    ul  li { width: 95%;   }   
+}
+</style>
+</head>
+<body>
+<div>
+    <ul>
+        <li><a href="family.html" target="_blank">The family</a></li>
+        <li><a href="lets-get-started.html" target="_blank">Lets get started</a></li>
+        <li><a href="contribution.html" target="_blank">Contribution</a></li>
+        <li><a href="move-to-the-app.html" target="_blank">Move to the app</a></li>
+        <li><a href="enter-mobile-number.html" target="_blank">User enter mobile number</a></li>
+        <li><a href="app-donors.html" target="_blank">App donors</a></li>
+        <li><a href="website-donors.html" target="_blank">Website donors</a></li>
+    </ul>
+</div>
+</body>
+</html>
